@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "**/lightning_logs": true,
+        "**/__pycache__": true,
+        "**/work/**": true,
+        "pxg.egg-info/**": true,
+
+        "tsconfig.json": true,
+        "package.json": true,
+        "package-lock.json": true,
+        "node_modules": true,
+    },
+
+    "python.analysis.exclude": [
+        "misc/**"
+    ],
+
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4, NamespaceIndentation: All, FixNamespaceComments: false, BreakBeforeBraces: Attach }"
+}

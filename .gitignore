@@ -1,0 +1,16 @@
+.Rproj.user
+.RData
+.Rhistory
+.DS_Store
+.RDataTmp
+
+__pycache__/
+node_modules/
+
+local/
+temp/
+notes/
+data/
+
+pxg.egg-info/
+**/lightning_logs
